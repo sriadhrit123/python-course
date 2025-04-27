@@ -1,0 +1,10 @@
+a=1
+b=5
+c=9
+print("a=", a)
+print("b=", b)
+print("c=", c)
+a,b,c=c,a,b      
+print("a=", a)
+print("b=", b)
+print("c=", c)
