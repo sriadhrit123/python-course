@@ -1,0 +1,16 @@
+a = 90
+print("Total number of working days:", a)
+
+b = 5
+print("Number of days absent:", b)
+
+# Calculate days present and percentage
+present_days = a - b
+n = (present_days / a) * 100
+print("Percentage of days he was present:", n)
+
+c = 75
+if n > c:
+    print("You are eligible to write exams")
+else:
+    print("You are not eligible to write exams")
