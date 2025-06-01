@@ -1,0 +1,7 @@
+a=int(input("enter a number"))
+b=int(input("enter a number"))
+c=int(input("enter a number"))
+print("before swapping numbers are",'a=',a,'b=',b, 'c=',c)
+print("after swapping numbers are:")
+a, b, c = b, c, a
+print('a=',a,'b=',b, 'c=',c)
