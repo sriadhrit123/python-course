@@ -1,0 +1,5 @@
+age=int(input("enter your age"))
+if(10<=age<=20)
+print("you are in school")
+else:
+  print("you are not in school")
