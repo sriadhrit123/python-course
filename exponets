@@ -1,0 +1,5 @@
+n=int(input("enter a number"))
+np=int(input("enter its power"))
+exponent=n**np
+
+print("the number is:", exponent)
