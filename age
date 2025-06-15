@@ -1,0 +1,8 @@
+age=int(input("enter your age"))
+if age>=10:
+  if age<=20:
+    print("your age is:",age,"you are allowed to enter the class")
+  else:
+    print("your age is:",age,"you are not eligible")
+else:
+  print("your age is:",age,"you are not allowed to enter the class")
